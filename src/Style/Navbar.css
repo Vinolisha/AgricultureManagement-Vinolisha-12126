@@ -1,0 +1,67 @@
+
+.navbar{
+    background-color: #fff;
+    height: 80px;
+    margin: 20px;
+    border-radius: 16px;
+    padding: 0.5rem;
+}
+.dark-nav{
+    background: #f4f5f7;
+    transition: 0.5s;
+}
+#logo{
+    font-weight: 500;
+    color: #035e46;
+    font-size: 25px;
+    transition: 0.3s color;
+}
+.login-buttons{
+    background-color: #009970;
+    color: #fff;
+    font-size: 14px;
+    padding: 8px 20px;
+    border-radius: 50px;
+    text-decoration: none;
+    transition: 0.3s background-color;
+}
+.login-buttons:hover{
+    background-color: #00b383;
+}
+
+.navbar-toggler{
+    border: none;
+}
+.navbar-toggler:focus, .btn-close:focus{
+    box-shadow: none;
+}
+
+#nav-links{
+    color: #666777;
+    font-weight: 500;
+    position: relative;
+    cursor: pointer;
+}
+
+#nav-links:hover, #nav-links.active{
+    color: #000;
+}
+
+@media (min-width: 991px){  
+#nav-links::before{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%);
+    width: 100%;
+    height: 2px;
+    background-color:#00b383 ;
+    visibility: hidden;
+    transition: 0.3s ease-in-out;
+}
+#nav-links:hover::before{
+    width: 100%;
+    visibility: visible;
+}
+}

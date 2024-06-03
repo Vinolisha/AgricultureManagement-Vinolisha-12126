@@ -1,0 +1,31 @@
+.about{
+    margin: 100px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+}
+.about-left{
+    flex-basis: 40%;
+
+    
+}
+.about-img{
+    width: 400px;
+    height: 400px;
+}
+.about-right{
+    color: rgb(2, 57, 39);
+    font-weight: bold;
+}
+.about-right h2 {
+    color: black;
+}
+
+.about-right h2 p{
+    color: black;
+}
+
+
+
+

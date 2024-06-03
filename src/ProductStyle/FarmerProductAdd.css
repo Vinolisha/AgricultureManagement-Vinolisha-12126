@@ -1,0 +1,43 @@
+.App {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+   
+  .card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px;
+    width: 200px;
+    text-align: center;
+  }
+   
+  .quantity-control {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+   
+  .quantity-control button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+   
+  .quantity-control button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+   
+  .quantity-control span {
+    margin: 0 10px;
+    font-size: 18px;
+  }
+  
+  
